@@ -1,0 +1,52 @@
+object Form2: TForm2
+  Left = 317
+  Top = 113
+  AlphaBlend = True
+  BorderStyle = bsNone
+  ClientHeight = 29
+  ClientWidth = 171
+  Color = clBackground
+  DefaultMonitor = dmDesktop
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDefault
+  Visible = True
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 16
+  object Label3: TLabel
+    Left = 8
+    Top = 4
+    Width = 17
+    Height = 16
+    Color = clBlack
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHighlightText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 131
+    Top = 4
+    Width = 20
+    Height = 16
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHighlightText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Timer1: TTimer
+    Interval = 100
+    OnTimer = FormCreate
+    Top = 24
+  end
+end
